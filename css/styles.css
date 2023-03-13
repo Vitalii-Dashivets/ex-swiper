@@ -19,6 +19,8 @@ body {
 }
 
 .swiper-slide {
+  width: 200px;
+  height: 200px;
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -35,8 +37,8 @@ body {
 }
 
 .swiper-pagination-bullet {
-  width: 20px;
-  height: 20px;
+  width: 13px;
+  height: 13px;
   text-align: center;
   line-height: 20px;
   font-size: 12px;
@@ -46,6 +48,8 @@ body {
 }
 
 .swiper-pagination-bullet-active {
+  width: 28px;
+  border-radius: 6.5px;
   color: #fff;
   background: #007aff;
 }
