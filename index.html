@@ -17,72 +17,322 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="swiper">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <img src="./images/modal-mob-1@1x.jpg" alt="" />
-        </div>
-        <div class="swiper-slide">
-          <img src="./images/modal-mob-2@1x.jpg" alt="" />
-        </div>
-        <div class="swiper-slide">
-          <img src="./images/modal-mob-3@1x.jpg" alt="" />
-        </div>
-        ...
+    <section class="container product-container">
+      <h2 class="product-title">OUR <span>PRODUCTS</span></h2>
+      <div class="swiper">
+        <ul class="swiper-wrapper product-list">
+          <li class="swiper-slide product-item">
+            <div class="product-card">
+              <img
+                srcset="
+                  ./images/product1@1x.jpg 1x,
+                  ./images/product1@2x.jpg 2x
+                "
+                src="./images/product1@1x.jpg"
+                alt=""
+              />
+              <h3 class="protuct-card-title">ORANGE</h3>
+              <p class="product-text">Dark chocolate</p>
+
+              <button type="button" class="product-button">45 UAH</button>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="product-card">
+              <img
+                srcset="
+                  ./images/product2@1x.jpg 1x,
+                  ./images/product2@2x.jpg 2x
+                "
+                src="./images/product2@1x.jpg"
+                alt=""
+              />
+              <h3 class="protuct-card-title">APPLE&CRANBERRY</h3>
+              <p class="product-text">Milk chocolate</p>
+              <button type="button" class="product-button">50 UAH</button>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="product-card">
+              <img
+                srcset="
+                  ./images/product3@1x.jpg 1x,
+                  ./images/product3@2x.jpg 2x
+                "
+                src="./images/product3@1x.jpg"
+                alt=""
+              />
+              <h3 class="protuct-card-title">LIME&SEA SALT</h3>
+              <p class="product-text">Dark chocolate</p>
+              <button type="button" class="product-button">66 UAH</button>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="product-card">
+              <img
+                srcset="
+                  ./images/product4@1x.jpg 1x,
+                  ./images/product4@2x.jpg 2x
+                "
+                src="./images/product4@1x.jpg"
+                alt=""
+              />
+              <h3 class="protuct-card-title">PINEAPPLE</h3>
+              <p class="product-text">Dark chocolate</p>
+              <button type="button" class="product-button">54 UAH</button>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="product-card">
+              <img
+                srcset="
+                  ./images/product5@1x.jpg 1x,
+                  ./images/product5@2x.jpg 2x
+                "
+                src="./images/product5@1x.jpg"
+                alt=""
+              />
+              <h3 class="protuct-card-title">CLASSIC</h3>
+              <p class="product-text">Milk chocolate</p>
+              <button type="button" class="product-button">45 UAH</button>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="product-card">
+              <img
+                srcset="
+                  ./images/product6@1x.jpg 1x,
+                  ./images/product6@2x.jpg 2x
+                "
+                src="./images/product6@1x.jpg"
+                alt=""
+              />
+              <h3 class="protuct-card-title">HONEY</h3>
+              <p class="product-text">Milk chocolate</p>
+              <button type="button" class="product-button">50 UAH</button>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="product-card">
+              <img
+                srcset="
+                  ./images/product7@1x.jpg 1x,
+                  ./images/product7@2x.jpg 2x
+                "
+                src="./images/product7@1x.jpg"
+                alt=""
+              />
+              <h3 class="protuct-card-title">ROASTED FRUITS</h3>
+              <p class="product-text">Dark chocolate</p>
+              <button type="button" class="product-button">66 UAH</button>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="product-card">
+              <img
+                srcset="
+                  ./images/product8@1x.jpg 1x,
+                  ./images/product8@2x.jpg 2x
+                "
+                src="./images/product8@1x.jpg"
+                alt=""
+              />
+              <h3 class="protuct-card-title">CLASSIC</h3>
+              <p class="product-text">White chocolate</p>
+              <button type="button" class="product-button">54 UAH</button>
+            </div>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
       </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
+    </section>
+    <section class="container sellers-container">
+      <h2 class="sellers-title">TOP<span> SELLERS</span></h2>
+      <img
+        class="sellers-image"
+        srcset="
+          ./images/choco-nut-mob@1x.jpg 1x,
+          ./images/choco-nut-mob@2x.jpg 2x
+        "
+        src="./images/choco-nut-mob@1x.jpg"
+        alt="Шоколад і нут на столі"
+        width="335"
+        height="464"
+      />
+      <p class="sellers-text">
+        Crazy enough chocolate originates from a bean just like the coffee bean
+        called Cacao. Cacao has been around for thousands of years and was first
+        discovered by the Native American tribe called the Mayans.
+      </p>
+      <img
+        class="sellers-image"
+        srcset="
+          ./images/choco-slice-mob@1x.jpg 1x,
+          ./images/choco-slice-mob@2x.jpg 2x
+        "
+        src="./images/choco-slice-mob@1x.jpg"
+        alt="Шоколад і нут на столі"
+        width="335"
+        height="464"
+      />
+      <button class="sellers-button" type="button" data-modal-open>
+        Buy now
+      </button>
+      <div class="backdrop is-hidden" data-modal-buy>
+        <div class="modal_buy">
+          <button class="modal-close-button" type="button" data-modal-close>
+            <svg class="modal-close-icon" width="12" height="12">
+              <use href="./images/icons.svg#x"></use>
+            </svg>
+          </button>
+          <p class="modal-buy-title">BUY<span> NOW</span></p>
+          <div class="swiper">
+            <ul class="swiper-wrapper modal-buy-list">
+              <li class="swiper-slide modal-buy-item">
+                <div class="modal-buy-card">
+                  <img
+                    srcset="
+                      ./images/modal-mob-1@1x.jpg 1x,
+                      ./images/modal-mob-1@2x.jpg 2x
+                    "
+                    src="./images/modal-mob-1@1x.jpg"
+                    alt="Скибки шоколаду"
+                  />
 
-      <!-- If we need navigation buttons -->
-      <!-- <div class="swiper-button-prev"></div> -->
-      <!-- <div class="swiper-button-next"></div> -->
+                  <span class="modal-weight">100 g</span>
+                </div>
+              </li>
+              <li class="swiper-slide modal-buy-item">
+                <div class="modal-buy-card">
+                  <img
+                    srcset="
+                      ./images/modal-mob-2@1x.jpg 1x,
+                      ./images/modal-mob-2@2x.jpg 2x
+                    "
+                    src="./images/modal-mob-2@1x.jpg"
+                    alt="Скибки чорного і білого шоколаду з горіхами"
+                  />
 
-      <!-- If we need scrollbar -->
-      <!-- <div class="swiper-scrollbar"></div> -->
-    </div>
-    <div class="swiper">
-      <!-- Additional required wrapper -->
-      <ul class="swiper-wrapper">
-        <!-- Slides -->
-        <li class="swiper-slide">
-          <div class="swiper-card">
-            <img src="./images/modal-mob-1@1x.jpg" alt="" />
-            <p>100 g</p>
+                  <span class="modal-weight">200 g</span>
+                </div>
+              </li>
+              <li class="swiper-slide modal-buy-item">
+                <div class="modal-buy-card">
+                  <img
+                    srcset="
+                      ./images/modal-mob-3@1x.jpg 1x,
+                      ./images/modal-mob-3@2x.jpg 2x
+                    "
+                    src="./images/modal-mob-3@1x.jpg"
+                    alt="Дві плитки чорного шоколаду"
+                  />
+
+                  <span class="modal-weight">300 g</span>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
           </div>
-        </li>
-        <li class="swiper-slide">
-          <img src="./images/modal-mob-2@1x.jpg" alt="" />
-        </li>
-        <li class="swiper-slide">
-          <img src="./images/modal-mob-3@1x.jpg" alt="" />
-        </li>
-        ...
-      </ul>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
+          <form name="signup_form" autocomplete="on">
+            <label for="Name" class="modal-buy-label">
+              <span>Personal information</span>
+            </label>
 
-      <!-- If we need navigation buttons -->
-      <!-- <div class="swiper-button-prev"></div> -->
-      <!-- <div class="swiper-button-next"></div> -->
+            <input
+              lang="ukr"
+              id="Name"
+              class="modal-buy-input"
+              type="text"
+              placeholder="Name"
+              pattern="\w{3,16}"
+              title="Surname 3-20 characters"
+              minlength="3"
+              maxlength="20"
+              required
+            />
 
-      <!-- If we need scrollbar -->
-      <!-- <div class="swiper-scrollbar"></div> -->
-    </div>
-    <!-- <script src="./js/swiper.js"></script> -->
+            <label for="Surname" class="modal-buy-label"></label>
+            <input
+              id="Surname"
+              class="modal-buy-input"
+              type="text"
+              placeholder="Surname"
+              pattern="\w{3,16}"
+              title="Surname 3-20 characters"
+              minlength="3"
+              maxlength="20"
+              required
+            />
+
+            <label for="mail" class="modal-buy-label"><span>Email</span></label>
+            <input
+              id="mail"
+              class="modal-buy-input"
+              type="email"
+              required
+              minlength="6"
+              maxlength="50"
+              placeholder="Enter your email"
+              pattern="[^@\s]+@[^@\s]+"
+              title="Invalid email address"
+            />
+            <label class="modal-buy-label" for="phone">
+              <span> Phone number</span></label
+            >
+            <span class="modal-buy-box">
+              <input
+                class="modal-buy-input"
+                id="phone"
+                type="tel"
+                pattern="[0-9]{9}"
+                placeholder="Phone number"
+                title="Nine digits code"
+                required
+                maxlength="9"
+              />
+              <b>
+                <svg class="modal-buy-flag" width="24" height="24">
+                  <use href="./images/icons.svg#flag"></use>
+                </svg>
+                <span class="modal-buy-code">+380</span>
+              </b>
+            </span>
+            <label class="modal-buy-label" for="bank">
+              <span>Card number</span>
+            </label>
+            <span class="modal-buy-box-bank">
+              <input
+                id="bank"
+                class="modal-buy-input"
+                type="text"
+                pattern="[0-9]{16}"
+                title="Sixteen digits code"
+                placeholder="Enter card"
+                maxlength="16"
+                required
+              />
+              <svg class="modal-buy-bank-icon" width="32" height="21">
+                <use href="./images/icons.svg#mastercard"></use>
+              </svg>
+            </span>
+            <label for="comment" class="modal-buy-label">
+              <span>Comment</span>
+              <textarea
+                id="comment"
+                class="modal-buy-textarea"
+                name="comment"
+                placeholder="Enter text"
+              ></textarea>
+            </label>
+
+            <button class="modal-buy-submit" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
-    <script>
-      var swiper = new Swiper(".swiper", {
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-          renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (index + 1) + "</span>";
-          },
-        },
-      });
-    </script>
+    <script src="./js/swiper-init.js"></script>
+    <script src="./js/modal-r.js"></script>
   </body>
 </html>
