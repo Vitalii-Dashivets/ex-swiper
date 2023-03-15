@@ -37,13 +37,16 @@ p {
   list-style: none;
 }
 .swiper {
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 .swiper-wrapper {
   padding: 0;
+  border-radius: 15px;
+  margin-bottom: 0;
 }
 .swiper-slide {
   background: #fff;
+  border-radius: 15px;
 }
 
 .swiper-pagination-bullet {
@@ -99,6 +102,7 @@ p {
 .product-item {
   max-height: 364px;
   padding: 0;
+  border-radius: 15px;
 }
 .product-card {
   width: 100%;
